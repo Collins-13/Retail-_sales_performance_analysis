@@ -90,7 +90,7 @@ This column was then cleaned and standardized so that all dates follow the same 
     LEFT(D2,FIND("-",D2)-1)
 ),"yyyy-mm-dd")
 ```
-![Order_date_clean](./Screenshot/Order_date_clean.png)
+![Order_date_clean](../Screenshot/Order_date_clean.png)
 
 The `TRIM()` function was applied to text columns such as **Region, Category, and Segment** to remove extra spaces. These columns were also converted to uppercase using `=UPPER()` for consistency.
 
@@ -271,5 +271,6 @@ Based on the analysis, here are actionable steps the business could take to incr
  # Conclusion
 
 This analysis highlights key patterns in sales, customer segments, product categories, and regional performance. Understanding which regions, months, and products drive the most revenue helps the business make smarter, data-driven decisions.
+
 
 By acting on these insights, optimizing inventory, targeting high-value segments, and applying discounts strategically, the business can increase sales, improve profitability, and plan more effectively for the future.
