@@ -70,7 +70,7 @@ The Superstore dataset includes thousands of individual sales records, covering 
 
 The retail sales data was originally stored in a raw CSV format and contained inconsistencies in date and text columns. It was imported into Excel for initial cleaning, and the total row count was `9994`.
 
-![/Total_row_count_excel](../Screenshot/Total_row_count_excel.png)
+![Total row count excel](../Screenshot/Total_row_count_excel.png)
  
 A new column called `Order Date Clean` was created to safely clean the dates without altering the original `Order Date`.
 This column was then cleaned and standardized so that all dates follow the same format `(YYYY-MM-DD)`.
@@ -274,4 +274,5 @@ This analysis highlights key patterns in sales, customer segments, product categ
 
 
 By acting on these insights, optimizing inventory, targeting high-value segments, and applying discounts strategically, the business can increase sales, improve profitability, and plan more effectively for the future.
+
 
