@@ -166,7 +166,7 @@ plt.title('Discount vs Profit by Category')
 plt.xlabel('Discount')
 plt.ylabel('Profit ($)')
 ```
-![Discount_vs_Profit_by_category](../visualizations/Discount_vs_Profit_by_category.png)
+![Discount_vs_Profit_by_category](../Visualizations/Discount_vs_Profit_by_category.png)
 
 This scatterplot shows how discounts affect profit for different product categories. Each dot is a sale, and the color represents its category. We can see that higher discounts often reduce profit, and some categories handle discounts better than others. This helps the business understand which product categories can safely offer discounts without hurting profitability too much.
 
@@ -185,7 +185,7 @@ sns.lineplot(
     markersize=8 
 )
 ```
-![Sales_trend_over_months](../visualizations/Sales_trend_over_months.png)
+![Sales_trend_over_months](../Visualizations/Sales_trend_over_months.png)
 
 This line chart shows how sales change from month to month for each year. Each line represents one year, and the points show total sales for each month. We can see which months have higher or lower sales, helping the business spot seasonal trends and plan promotions or stock accordingly.
 
@@ -196,7 +196,7 @@ plt.figure(figsize=(6,4))
 sns.barplot(x='Segment', y='Sales', data=df, estimator=sum)
 plt.title('Sales by Segment')
 ```
-![Sales_by_segment](../visualizations/Sales_by_segment.png)
+![Sales_by_segment](../Visualizations/Sales_by_segment.png)
 
 This bar chart shows the total sales for each customer segment. Each bar represents a different segment, such as Consumer, Corporate, or Home Office. The taller the bar, the more sales that segment brings in. This helps the business understand which types of customers are contributing the most to revenue and where to focus marketing efforts.
 
@@ -213,7 +213,7 @@ plt.ylabel('Region')
 plt.xlabel('Month')
 plt.savefig("Heatmap_of Sales_by_region_&_month.png", dpi=300, bbox_inches="tight")
 ```
-![Heatmap_of Sales_by_region_&_month](../visualizations/Heatmap_of%20Sales_by_region_&_month.png)
+![Heatmap_of Sales_by_region_&_month](../Visualizations/Heatmap_of%20Sales_by_region_&_month.png)
 
 This heatmap shows total sales for each region across the months. The rows are regions, and the columns are months. Darker colors indicate higher sales, while lighter colors show lower sales. This makes it easy to see which regions perform best in which months and helps the business plan marketing or stock levels seasonally.
 
@@ -229,7 +229,7 @@ plt.title('Top 10 Sub-Categories by Sales')
 plt.xlabel('Total Sales ($)')
 plt.ylabel('Sub-Category')
 ```
-![Top_10_product_by_sales](../visualizations/Top_10_product_by_sales.png)
+![Top_10_product_by_sales](../Visualizations/Top_10_product_by_sales.png)
 
 This horizontal bar chart shows the 10 sub-categories that generate the most sales. Each bar represents a sub-category, and the length of the bar shows the total sales amount. The longer the bar, the higher the sales. This helps the business see which products are the best sellers and where to focus marketing or inventory efforts.
 
@@ -274,3 +274,4 @@ This analysis highlights key patterns in sales, customer segments, product categ
 
 
 By acting on these insights, optimizing inventory, targeting high-value segments, and applying discounts strategically, the business can increase sales, improve profitability, and plan more effectively for the future.
+
